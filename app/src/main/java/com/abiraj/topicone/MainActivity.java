@@ -46,8 +46,6 @@ public class MainActivity extends AppCompatActivity {
 
             public void onClick(View v) {
 
-
-
                 int First , Second;
 
                 First = Integer.parseInt(etFirst.getText().toString());
@@ -59,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
 
                 else if (RdoSub.isChecked()){
                     Result = First - Second;
+
                 }else{
                     Result = First * Second;
                 }

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".image">
+
+    <RadioGroup
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content">
+
+
+        <RadioButton
+            android:id="@+id/rdoTj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Taj Mahal"
+            android:textSize="20dp"/>
+
+        <RadioButton
+            android:id="@+id/rdoOp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Opera"
+            android:textSize="20dp"/>
+
+        <RadioButton
+            android:id="@+id/rdoCo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Coloseum"
+            android:textSize="20dp"/>
+
+
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imgTaj"
+        android:src="@drawable/taj"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+</LinearLayout>
+
